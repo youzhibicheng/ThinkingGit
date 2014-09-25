@@ -13,3 +13,6 @@
 # 6. switch to original directory ThinkingGit, run
 	git pull origin
 # you will see git_pull.txt is already in your current directory
+
+# 认清楚 get pull 和 git fetch之间的区别
+

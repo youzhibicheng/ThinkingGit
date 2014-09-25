@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# to ignore some files
+# create file .gitignore in current directory
+# add txt like
+
+# *.[oa]
+
+git will ignore the line that begin with #
+
+pattern support
+
+*.a 	#ignore all the files that end with .a
+!lib.a 	#except lib.a
+/TODO	#just ignore TODO file, do not ignore files like subdirectory/TODO
+build/ 	#ignore all the files under directory build/ 

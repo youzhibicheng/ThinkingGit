@@ -1,0 +1,6 @@
+# three status
+
+1. modified
+2. unstaged
+3. committed
+

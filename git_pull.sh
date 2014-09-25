@@ -15,4 +15,4 @@
 # you will see git_pull.txt is already in your current directory
 
 # 认清楚 get pull 和 git fetch之间的区别
-
+# git pull 相当于git fetch 和 git merge

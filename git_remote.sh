@@ -3,7 +3,15 @@
 git remote
 git remote -v
 git remote show origin
+# create a new project git_test in github using web
 git remote add git_test https://github.com/youzhibicheng/git_test.git
+git remote rm git_test
+git remote -v
+
+git remote add git_test https://github.com/youzhibicheng/git_test.git
+git remote rename git_test gitTest
+git remote -v
+ 
 # after git remote add, you can use git fetch to download
 git fetch git_test
 # [jameszou@jameszou-t430-rhel65 ThinkingGit]$ git fetch git_test
@@ -15,8 +23,7 @@ git fetch git_test
 #  * [new branch]      master     -> git_test/master
 # 这个时候我们看见没有download下来git_test中的文件
 # 但git_test的主干分支master已经可以访问了, 对应名字是 git_test/master
-git remote rm git_test
-git remote -v
+
 
 # git push <remote> <local>
 git push origin master

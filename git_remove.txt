@@ -1,2 +1,0 @@
-test git remove and git reset
-

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# git push [remote_name] [branch_name]
+# remote_name: git remote -v
+# branch_name: git branch
+
 # test git pull
 # 1. create another git hub user
 #	zouzhicheng1983@gmail.com

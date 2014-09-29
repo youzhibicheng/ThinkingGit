@@ -12,4 +12,5 @@ git log --stat
 # 制定使用完全不同于默认格式的方式展示提交历史，比如oneline, short, full, fuller
 git log --pretty=oneline
 
-
+sudo apt-get install gitk
+gitk

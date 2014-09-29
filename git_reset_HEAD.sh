@@ -12,4 +12,8 @@ git status
 rm -rf git_reset_HEAD.txt
 git status
 
+# 注意与git rm之间的区别
+# git remove 是从提交从删除
 
+# git remove 是在 commit 之后
+# git reset 是在add之后, commit 之前

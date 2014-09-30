@@ -52,3 +52,13 @@ git commit -a -m 'fix git branch merge conflict manually'
 git status
 git merge test
 # will see "already up-to-date"
+
+git branch -v
+git branch --merged
+git branch --no-merged
+
+git branch -d test
+
+# most of the time. we use branch like this
+# master, develop, topic
+

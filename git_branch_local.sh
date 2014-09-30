@@ -46,4 +46,9 @@ git merge test
 # Auto-merging git_branch.txt
 # CONFLICT (content): Merge conflict in git_branch.txt
 # Automatic merge failed; fix conflicts and then commit the result.
-
+git status
+# the git_branch.txt already merge and change, fix it and then do the following
+git commit -a -m 'fix git branch merge conflict manually'
+git status
+git merge test
+# will see "already up-to-date"

@@ -11,7 +11,6 @@ git tag -l 'v1.4.*'
 # 含附注的标签
 git tag -a v0.1 -m 'the draft tag'
 git tag
-
 git show v0.1
 
 # 签署标签 signed
@@ -32,3 +31,10 @@ git show v0.3-light-weight
 # 验证标签 verify
 # 没有弄清楚，需要弄清楚linux 公钥 私钥 的概念
 git tag -v 
+
+# 分享标签
+# git push 默认情况下并不会把标签传送到远程服务器上
+git push origin v0.1
+
+# 一次性推送所有标签上去
+git push origin --tags

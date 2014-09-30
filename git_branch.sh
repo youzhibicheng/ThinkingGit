@@ -43,5 +43,7 @@ git status
 git checkout master
 git merge test
 # will give conflict error information, should add just by youself
-
+# Auto-merging git_branch.txt
+# CONFLICT (content): Merge conflict in git_branch.txt
+# Automatic merge failed; fix conflicts and then commit the result.
 

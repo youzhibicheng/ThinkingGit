@@ -1,2 +1,6 @@
 do change in branch test
+<<<<<<< HEAD
 test git branch in branch master
+=======
+test git branch in branch test
+>>>>>>> test
